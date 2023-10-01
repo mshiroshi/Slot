@@ -154,8 +154,8 @@ struct SlotView: View {
                         // スロットを回す
                         // TODO:
                         let slotManager = SlotManager(slotState: slotState, reelState1: reelState1, reelState2: reelState2, reelState3: reelState3)
-                        //slotManager.start()
-                        slotManager.startReach(isBingo: true)
+                        slotManager.start()
+                        //slotManager.startReach(isBingo: true)
                         //slotManager.startNotReach()
                         //slotManager.startDebug()
                         
@@ -365,12 +365,14 @@ struct SlotController {
         slotState.isDidReach = false
         
         // Particle(Short)
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + reelStopMinSecond / 2) {
-            slotState.isFadeInShortParticle = true
-            MusicManager.shared.playBellShortSound()
-            
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
-                slotState.isFadeInShortParticle = false
+        if self.isReach() {
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + reelStopMinSecond / 2) {
+                slotState.isFadeInShortParticle = true
+                MusicManager.shared.playBellShortSound()
+                
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+                    slotState.isFadeInShortParticle = false
+                }
             }
         }
         

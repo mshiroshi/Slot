@@ -25,15 +25,15 @@ class Reserve: ObservableObject {
     
     init() {
         // TODO
-        units.append(ReserveUnit(type: .silver))
-        units.append(ReserveUnit(type: .silver))
-        units.append(ReserveUnit(type: .gold))
-        units.append(ReserveUnit(type: .silver))
-        units.append(ReserveUnit(type: .silver))
-        units.append(ReserveUnit(type: .gold))
-        units.append(ReserveUnit(type: .silver))
-        units.append(ReserveUnit(type: .silver))
-        units.append(ReserveUnit(type: .gold))
+//        units.append(ReserveUnit(type: .silver))
+//        units.append(ReserveUnit(type: .silver))
+//        units.append(ReserveUnit(type: .gold))
+//        units.append(ReserveUnit(type: .silver))
+//        units.append(ReserveUnit(type: .silver))
+//        units.append(ReserveUnit(type: .gold))
+//        units.append(ReserveUnit(type: .silver))
+//        units.append(ReserveUnit(type: .silver))
+//        units.append(ReserveUnit(type: .gold))
     }
     
     func add() {
