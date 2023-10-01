@@ -233,13 +233,13 @@ struct SlotView: View {
                 )
             }
         } else {
-            if randomNum <= 20  {
+            if randomNum <= 10  {
                 slotState.stepUpAction = StepUpAction(
                     stepUpImages: [
                         StepUpImage(imageName: "ステップ1_オグリキャップ")
                     ]
                 )
-            } else if randomNum <= 25 {
+            } else if randomNum <= 13 {
                 slotState.stepUpAction = StepUpAction(
                     stepUpImages: [
                         StepUpImage(imageName: "ステップ1_オグリキャップ"),

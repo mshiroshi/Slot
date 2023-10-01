@@ -76,7 +76,7 @@ struct ReachPerformView: View {
         if self.isBingo() {
             slotState.reachAction.reach = Action(
                 movies: [],
-                speed: 10.0,
+                speed: 1.0,
                 race: Race(raceName: "有馬記念", characterName: "オグリキャップ", characterImageName: "キャラ_オグリキャップ", iconImageName: "アイコン_オグリキャップ")
             )
             var movies: [Movie] = []
@@ -107,7 +107,7 @@ struct ReachPerformView: View {
                              Movie(name: "レース_序盤_オグリキャップ", type: .race),
                              Movie(name: "レース_中盤_オグリキャップ", type: .race),
                              Movie(name: "レース_バッドエンド_オグリキャップ", type: .race, result: .failure)],
-                    speed: 10.0,
+                    speed: 1.0,
                     race: Race(raceName: "有馬記念", characterName: "オグリキャップ", characterImageName: "キャラ_オグリキャップ", iconImageName: "アイコン_オグリキャップ")
                 )
             } else {
