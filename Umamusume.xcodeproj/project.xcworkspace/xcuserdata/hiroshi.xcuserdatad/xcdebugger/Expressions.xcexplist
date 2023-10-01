@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ReachPerformView.playAction(action:):ReachPerformView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "slotStateObj.reachAction.reach">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ReachPerformView.createReachAction():ReachPerformView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameState.getCurrentRuleId():GameView.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

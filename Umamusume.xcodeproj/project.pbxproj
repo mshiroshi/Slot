@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6808F2152A8A650B007BB020 /* 激熱.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6808F2142A8A650B007BB020 /* 激熱.mp4 */; };
+		6826A8052A92D57D003FE8DD /* レース_復活_オグリキャップ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6826A8042A92D57D003FE8DD /* レース_復活_オグリキャップ.mp4 */; };
+		6826A8072A92D587003FE8DD /* レース_序盤_オグリキャップ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6826A8062A92D587003FE8DD /* レース_序盤_オグリキャップ.mp4 */; };
+		6843B7C029EA5CB600CCB519 /* SlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7BF29EA5CB600CCB519 /* SlotView.swift */; };
+		6843B7C229EA5F6000CCB519 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843B7C129EA5F6000CCB519 /* GameView.swift */; };
+		684EA0352A87DB5900851581 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684EA0342A87DB5900851581 /* MusicManager.swift */; };
+		684EA0442A88821100851581 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684EA0432A88821100851581 /* Utility.swift */; };
+		684EA0482A88A41900851581 /* ReachPerformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684EA0472A88A41900851581 /* ReachPerformView.swift */; };
+		684EA0562A89B91100851581 /* SlotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684EA0552A89B91100851581 /* SlotManager.swift */; };
+		684EA0582A89D1E400851581 /* ReserveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684EA0572A89D1E400851581 /* ReserveView.swift */; };
+		688B62D62A9F6C860071869B /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688B62D52A9F6C860071869B /* ReelView.swift */; };
+		689815152A90F2A400501149 /* ライブ_ユメヲカケル.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 689815142A90F2A400501149 /* ライブ_ユメヲカケル.mp4 */; };
+		689815172A90F3B500501149 /* 有馬記念.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 689815162A90F3B400501149 /* 有馬記念.mp4 */; };
+		689815252A9113E200501149 /* レース_終盤_オグリキャップ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 689815242A9113E200501149 /* レース_終盤_オグリキャップ.mp4 */; };
+		689D901A29EED2680033A4DA /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D901929EED2680033A4DA /* TopView.swift */; };
+		689EDB292A91985E00324C4E /* ガチャ_ホッコータルマエ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 689EDB282A91985E00324C4E /* ガチャ_ホッコータルマエ.mp4 */; };
+		689EDB2D2A91A76E00324C4E /* BalloonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EDB2C2A91A76E00324C4E /* BalloonText.swift */; };
+		689EDB312A920B1800324C4E /* MiniSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EDB302A920B1800324C4E /* MiniSlotView.swift */; };
+		689EDB332A92371500324C4E /* レース_中盤_オグリキャップ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 689EDB322A92371500324C4E /* レース_中盤_オグリキャップ.mp4 */; };
+		689EDB352A92374300324C4E /* レース_バッドエンド_オグリキャップ.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 689EDB342A92374300324C4E /* レース_バッドエンド_オグリキャップ.mp4 */; };
+		68A117892A937E010019FAC6 /* cm5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117802A937DF60019FAC6 /* cm5.mp4 */; };
+		68A1178A2A937E010019FAC6 /* cm7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117812A937DF80019FAC6 /* cm7.mp4 */; };
+		68A1178B2A937E010019FAC6 /* cm2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117822A937DF90019FAC6 /* cm2.mp4 */; };
+		68A1178C2A937E010019FAC6 /* cm6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117832A937DFA0019FAC6 /* cm6.mp4 */; };
+		68A1178D2A937E010019FAC6 /* cm9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117842A937DFC0019FAC6 /* cm9.mp4 */; };
+		68A1178E2A937E010019FAC6 /* cm1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117852A937DFD0019FAC6 /* cm1.mp4 */; };
+		68A1178F2A937E010019FAC6 /* cm4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117862A937DFE0019FAC6 /* cm4.mp4 */; };
+		68A117902A937E010019FAC6 /* cm8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117872A937DFF0019FAC6 /* cm8.mp4 */; };
+		68A117912A937E010019FAC6 /* cm3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68A117882A937E010019FAC6 /* cm3.mp4 */; };
+		68AB6E1F2A9B01C800E9FF46 /* RainShortRight.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68AB6E1E2A9B01C800E9FF46 /* RainShortRight.sks */; };
+		68AB6E212A9B03E800E9FF46 /* RainShortLeft.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68AB6E202A9B03E800E9FF46 /* RainShortLeft.sks */; };
+		68AE044A29F0A62900DDED28 /* TestGameVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE044929F0A62900DDED28 /* TestGameVIew.swift */; };
+		68AE044C29F14C9800DDED28 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE044B29F14C9800DDED28 /* DescriptionView.swift */; };
+		68AE044E29F2C1F200DDED28 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE044D29F2C1F200DDED28 /* FooterView.swift */; };
+		68AE045029F41D8700DDED28 /* TrainingUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE044F29F41D8700DDED28 /* TrainingUnitView.swift */; };
+		68AE045229F4FFE100DDED28 /* TrainingRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE045129F4FFE100DDED28 /* TrainingRule.swift */; };
+		68AE045429FD311000DDED28 /* SuccessStampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE045329FD311000DDED28 /* SuccessStampView.swift */; };
+		68BFDD862A99F66300459EF9 /* FirefilesLogo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68BFDD852A99F66300459EF9 /* FirefilesLogo.sks */; };
+		68BFDD882A99F7F600459EF9 /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFDD872A99F7F600459EF9 /* ParticleView.swift */; };
+		68BFDD8D2A9A1A5D00459EF9 /* FirefilesHorseshoes.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68BFDD8B2A9A1A5D00459EF9 /* FirefilesHorseshoes.sks */; };
+		68BFDD912A9A206B00459EF9 /* RainRight.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68BFDD8F2A9A206B00459EF9 /* RainRight.sks */; };
+		68BFDD922A9A206B00459EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BFDD902A9A206B00459EF9 /* Assets.xcassets */; };
+		68BFDD942A9A37BB00459EF9 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFDD932A9A37BB00459EF9 /* Consts.swift */; };
+		68EFDED629E96A620004FD08 /* UmamusumeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFDED529E96A620004FD08 /* UmamusumeApp.swift */; };
+		68EFDED829E96A620004FD08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFDED729E96A620004FD08 /* ContentView.swift */; };
+		68EFDEDA29E96A640004FD08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EFDED929E96A640004FD08 /* Assets.xcassets */; };
+		68EFDEDD29E96A640004FD08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EFDEDC29E96A640004FD08 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6808F2142A8A650B007BB020 /* 激熱.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "激熱.mp4"; sourceTree = "<group>"; };
+		6826A8042A92D57D003FE8DD /* レース_復活_オグリキャップ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "レース_復活_オグリキャップ.mp4"; sourceTree = "<group>"; };
+		6826A8062A92D587003FE8DD /* レース_序盤_オグリキャップ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "レース_序盤_オグリキャップ.mp4"; sourceTree = "<group>"; };
+		6843B7BF29EA5CB600CCB519 /* SlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotView.swift; sourceTree = "<group>"; };
+		6843B7C129EA5F6000CCB519 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		684EA0342A87DB5900851581 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		684EA0432A88821100851581 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		684EA0472A88A41900851581 /* ReachPerformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachPerformView.swift; sourceTree = "<group>"; };
+		684EA0552A89B91100851581 /* SlotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotManager.swift; sourceTree = "<group>"; };
+		684EA0572A89D1E400851581 /* ReserveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveView.swift; sourceTree = "<group>"; };
+		688B62D52A9F6C860071869B /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		689815142A90F2A400501149 /* ライブ_ユメヲカケル.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ライブ_ユメヲカケル.mp4"; sourceTree = "<group>"; };
+		689815162A90F3B400501149 /* 有馬記念.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "有馬記念.mp4"; sourceTree = "<group>"; };
+		689815242A9113E200501149 /* レース_終盤_オグリキャップ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "レース_終盤_オグリキャップ.mp4"; sourceTree = "<group>"; };
+		689D901929EED2680033A4DA /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		689EDB282A91985E00324C4E /* ガチャ_ホッコータルマエ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ガチャ_ホッコータルマエ.mp4"; sourceTree = "<group>"; };
+		689EDB2C2A91A76E00324C4E /* BalloonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonText.swift; sourceTree = "<group>"; };
+		689EDB302A920B1800324C4E /* MiniSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniSlotView.swift; sourceTree = "<group>"; };
+		689EDB322A92371500324C4E /* レース_中盤_オグリキャップ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "レース_中盤_オグリキャップ.mp4"; sourceTree = "<group>"; };
+		689EDB342A92374300324C4E /* レース_バッドエンド_オグリキャップ.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "レース_バッドエンド_オグリキャップ.mp4"; sourceTree = "<group>"; };
+		68A117802A937DF60019FAC6 /* cm5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm5.mp4; sourceTree = "<group>"; };
+		68A117812A937DF80019FAC6 /* cm7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm7.mp4; sourceTree = "<group>"; };
+		68A117822A937DF90019FAC6 /* cm2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm2.mp4; sourceTree = "<group>"; };
+		68A117832A937DFA0019FAC6 /* cm6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm6.mp4; sourceTree = "<group>"; };
+		68A117842A937DFC0019FAC6 /* cm9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm9.mp4; sourceTree = "<group>"; };
+		68A117852A937DFD0019FAC6 /* cm1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm1.mp4; sourceTree = "<group>"; };
+		68A117862A937DFE0019FAC6 /* cm4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm4.mp4; sourceTree = "<group>"; };
+		68A117872A937DFF0019FAC6 /* cm8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm8.mp4; sourceTree = "<group>"; };
+		68A117882A937E010019FAC6 /* cm3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm3.mp4; sourceTree = "<group>"; };
+		68AB6E1E2A9B01C800E9FF46 /* RainShortRight.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainShortRight.sks; sourceTree = "<group>"; };
+		68AB6E202A9B03E800E9FF46 /* RainShortLeft.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainShortLeft.sks; sourceTree = "<group>"; };
+		68AE044929F0A62900DDED28 /* TestGameVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGameVIew.swift; sourceTree = "<group>"; };
+		68AE044B29F14C9800DDED28 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		68AE044D29F2C1F200DDED28 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		68AE044F29F41D8700DDED28 /* TrainingUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingUnitView.swift; sourceTree = "<group>"; };
+		68AE045129F4FFE100DDED28 /* TrainingRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRule.swift; sourceTree = "<group>"; };
+		68AE045329FD311000DDED28 /* SuccessStampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessStampView.swift; sourceTree = "<group>"; };
+		68BFDD852A99F66300459EF9 /* FirefilesLogo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirefilesLogo.sks; sourceTree = "<group>"; };
+		68BFDD872A99F7F600459EF9 /* ParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
+		68BFDD8B2A9A1A5D00459EF9 /* FirefilesHorseshoes.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirefilesHorseshoes.sks; sourceTree = "<group>"; };
+		68BFDD8F2A9A206B00459EF9 /* RainRight.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainRight.sks; sourceTree = "<group>"; };
+		68BFDD902A9A206B00459EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68BFDD932A9A37BB00459EF9 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		68EFDED229E96A620004FD08 /* Umamusume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umamusume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EFDED529E96A620004FD08 /* UmamusumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamusumeApp.swift; sourceTree = "<group>"; };
+		68EFDED729E96A620004FD08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68EFDED929E96A640004FD08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68EFDEDC29E96A640004FD08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68EFDECF29E96A620004FD08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		684EA04C2A89229100851581 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6808F2142A8A650B007BB020 /* 激熱.mp4 */,
+				689815162A90F3B400501149 /* 有馬記念.mp4 */,
+				6826A8062A92D587003FE8DD /* レース_序盤_オグリキャップ.mp4 */,
+				689EDB322A92371500324C4E /* レース_中盤_オグリキャップ.mp4 */,
+				689815242A9113E200501149 /* レース_終盤_オグリキャップ.mp4 */,
+				689EDB342A92374300324C4E /* レース_バッドエンド_オグリキャップ.mp4 */,
+				6826A8042A92D57D003FE8DD /* レース_復活_オグリキャップ.mp4 */,
+				689EDB282A91985E00324C4E /* ガチャ_ホッコータルマエ.mp4 */,
+				689815142A90F2A400501149 /* ライブ_ユメヲカケル.mp4 */,
+				68A117852A937DFD0019FAC6 /* cm1.mp4 */,
+				68A117822A937DF90019FAC6 /* cm2.mp4 */,
+				68A117882A937E010019FAC6 /* cm3.mp4 */,
+				68A117862A937DFE0019FAC6 /* cm4.mp4 */,
+				68A117802A937DF60019FAC6 /* cm5.mp4 */,
+				68A117832A937DFA0019FAC6 /* cm6.mp4 */,
+				68A117812A937DF80019FAC6 /* cm7.mp4 */,
+				68A117872A937DFF0019FAC6 /* cm8.mp4 */,
+				68A117842A937DFC0019FAC6 /* cm9.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		68EFDEC929E96A620004FD08 = {
+			isa = PBXGroup;
+			children = (
+				68BFDD902A9A206B00459EF9 /* Assets.xcassets */,
+				68EFDED429E96A620004FD08 /* Umamusume */,
+				68EFDED329E96A620004FD08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68EFDED329E96A620004FD08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68EFDED229E96A620004FD08 /* Umamusume.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68EFDED429E96A620004FD08 /* Umamusume */ = {
+			isa = PBXGroup;
+			children = (
+				684EA04C2A89229100851581 /* Resource */,
+				68BFDD932A9A37BB00459EF9 /* Consts.swift */,
+				68EFDED529E96A620004FD08 /* UmamusumeApp.swift */,
+				68EFDED729E96A620004FD08 /* ContentView.swift */,
+				689D901929EED2680033A4DA /* TopView.swift */,
+				6843B7BF29EA5CB600CCB519 /* SlotView.swift */,
+				688B62D52A9F6C860071869B /* ReelView.swift */,
+				689EDB302A920B1800324C4E /* MiniSlotView.swift */,
+				684EA0472A88A41900851581 /* ReachPerformView.swift */,
+				684EA0572A89D1E400851581 /* ReserveView.swift */,
+				6843B7C129EA5F6000CCB519 /* GameView.swift */,
+				68AE044B29F14C9800DDED28 /* DescriptionView.swift */,
+				68AE044F29F41D8700DDED28 /* TrainingUnitView.swift */,
+				689EDB2C2A91A76E00324C4E /* BalloonText.swift */,
+				68AE045329FD311000DDED28 /* SuccessStampView.swift */,
+				68AE044D29F2C1F200DDED28 /* FooterView.swift */,
+				68BFDD872A99F7F600459EF9 /* ParticleView.swift */,
+				68AE044929F0A62900DDED28 /* TestGameVIew.swift */,
+				68AE045129F4FFE100DDED28 /* TrainingRule.swift */,
+				684EA0552A89B91100851581 /* SlotManager.swift */,
+				684EA0342A87DB5900851581 /* MusicManager.swift */,
+				684EA0432A88821100851581 /* Utility.swift */,
+				68BFDD852A99F66300459EF9 /* FirefilesLogo.sks */,
+				68BFDD8B2A9A1A5D00459EF9 /* FirefilesHorseshoes.sks */,
+				68BFDD8F2A9A206B00459EF9 /* RainRight.sks */,
+				68AB6E1E2A9B01C800E9FF46 /* RainShortRight.sks */,
+				68AB6E202A9B03E800E9FF46 /* RainShortLeft.sks */,
+				68EFDED929E96A640004FD08 /* Assets.xcassets */,
+				68EFDEDB29E96A640004FD08 /* Preview Content */,
+			);
+			path = Umamusume;
+			sourceTree = "<group>";
+		};
+		68EFDEDB29E96A640004FD08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68EFDEDC29E96A640004FD08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68EFDED129E96A620004FD08 /* Umamusume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EFDEE029E96A640004FD08 /* Build configuration list for PBXNativeTarget "Umamusume" */;
+			buildPhases = (
+				68EFDECE29E96A620004FD08 /* Sources */,
+				68EFDECF29E96A620004FD08 /* Frameworks */,
+				68EFDED029E96A620004FD08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Umamusume;
+			productName = Umamusume;
+			productReference = 68EFDED229E96A620004FD08 /* Umamusume.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68EFDECA29E96A620004FD08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					68EFDED129E96A620004FD08 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 68EFDECD29E96A620004FD08 /* Build configuration list for PBXProject "Umamusume" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68EFDEC929E96A620004FD08;
+			productRefGroup = 68EFDED329E96A620004FD08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68EFDED129E96A620004FD08 /* Umamusume */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68EFDED029E96A620004FD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A1178F2A937E010019FAC6 /* cm4.mp4 in Resources */,
+				689815152A90F2A400501149 /* ライブ_ユメヲカケル.mp4 in Resources */,
+				68AB6E1F2A9B01C800E9FF46 /* RainShortRight.sks in Resources */,
+				689815172A90F3B500501149 /* 有馬記念.mp4 in Resources */,
+				6826A8052A92D57D003FE8DD /* レース_復活_オグリキャップ.mp4 in Resources */,
+				68A117892A937E010019FAC6 /* cm5.mp4 in Resources */,
+				68A117912A937E010019FAC6 /* cm3.mp4 in Resources */,
+				6826A8072A92D587003FE8DD /* レース_序盤_オグリキャップ.mp4 in Resources */,
+				689815252A9113E200501149 /* レース_終盤_オグリキャップ.mp4 in Resources */,
+				68BFDD8D2A9A1A5D00459EF9 /* FirefilesHorseshoes.sks in Resources */,
+				68A1178B2A937E010019FAC6 /* cm2.mp4 in Resources */,
+				68A1178E2A937E010019FAC6 /* cm1.mp4 in Resources */,
+				68A117902A937E010019FAC6 /* cm8.mp4 in Resources */,
+				68EFDEDD29E96A640004FD08 /* Preview Assets.xcassets in Resources */,
+				68EFDEDA29E96A640004FD08 /* Assets.xcassets in Resources */,
+				689EDB292A91985E00324C4E /* ガチャ_ホッコータルマエ.mp4 in Resources */,
+				6808F2152A8A650B007BB020 /* 激熱.mp4 in Resources */,
+				68BFDD862A99F66300459EF9 /* FirefilesLogo.sks in Resources */,
+				689EDB332A92371500324C4E /* レース_中盤_オグリキャップ.mp4 in Resources */,
+				68A1178C2A937E010019FAC6 /* cm6.mp4 in Resources */,
+				68BFDD912A9A206B00459EF9 /* RainRight.sks in Resources */,
+				68A1178A2A937E010019FAC6 /* cm7.mp4 in Resources */,
+				689EDB352A92374300324C4E /* レース_バッドエンド_オグリキャップ.mp4 in Resources */,
+				68BFDD922A9A206B00459EF9 /* Assets.xcassets in Resources */,
+				68A1178D2A937E010019FAC6 /* cm9.mp4 in Resources */,
+				68AB6E212A9B03E800E9FF46 /* RainShortLeft.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68EFDECE29E96A620004FD08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6843B7C029EA5CB600CCB519 /* SlotView.swift in Sources */,
+				68BFDD942A9A37BB00459EF9 /* Consts.swift in Sources */,
+				68AE045229F4FFE100DDED28 /* TrainingRule.swift in Sources */,
+				689D901A29EED2680033A4DA /* TopView.swift in Sources */,
+				684EA0582A89D1E400851581 /* ReserveView.swift in Sources */,
+				68AE045429FD311000DDED28 /* SuccessStampView.swift in Sources */,
+				689EDB312A920B1800324C4E /* MiniSlotView.swift in Sources */,
+				68EFDED829E96A620004FD08 /* ContentView.swift in Sources */,
+				684EA0562A89B91100851581 /* SlotManager.swift in Sources */,
+				684EA0352A87DB5900851581 /* MusicManager.swift in Sources */,
+				6843B7C229EA5F6000CCB519 /* GameView.swift in Sources */,
+				684EA0442A88821100851581 /* Utility.swift in Sources */,
+				68AE045029F41D8700DDED28 /* TrainingUnitView.swift in Sources */,
+				68AE044A29F0A62900DDED28 /* TestGameVIew.swift in Sources */,
+				684EA0482A88A41900851581 /* ReachPerformView.swift in Sources */,
+				689EDB2D2A91A76E00324C4E /* BalloonText.swift in Sources */,
+				68EFDED629E96A620004FD08 /* UmamusumeApp.swift in Sources */,
+				68AE044E29F2C1F200DDED28 /* FooterView.swift in Sources */,
+				688B62D62A9F6C860071869B /* ReelView.swift in Sources */,
+				68BFDD882A99F7F600459EF9 /* ParticleView.swift in Sources */,
+				68AE044C29F14C9800DDED28 /* DescriptionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68EFDEDE29E96A640004FD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68EFDEDF29E96A640004FD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68EFDEE129E96A640004FD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Umamusume/Preview Content\"";
+				DEVELOPMENT_TEAM = MAVGYU4L3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mah.Umamusume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68EFDEE229E96A640004FD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Umamusume/Preview Content\"";
+				DEVELOPMENT_TEAM = MAVGYU4L3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mah.Umamusume;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68EFDECD29E96A620004FD08 /* Build configuration list for PBXProject "Umamusume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EFDEDE29E96A640004FD08 /* Debug */,
+				68EFDEDF29E96A640004FD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EFDEE029E96A640004FD08 /* Build configuration list for PBXNativeTarget "Umamusume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EFDEE129E96A640004FD08 /* Debug */,
+				68EFDEE229E96A640004FD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68EFDECA29E96A620004FD08 /* Project object */;
+}
