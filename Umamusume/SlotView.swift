@@ -140,9 +140,9 @@ struct SlotView: View {
         if slotState.isSlotProcessing == false {
             // 保留玉があればスロットを回す
             if reserve.units.isEmpty == false {
-                // 保留玉が追加されてから3秒以上経過している場合
+                // 保留玉が追加されてから2秒以上経過している場合
                 let currentDateTime = Date()
-                if let createDateTime = Calendar.current.date(byAdding: .second, value: 3, to: reserve.units.first!.createDateTime), currentDateTime > createDateTime {
+                if let createDateTime = Calendar.current.date(byAdding: .second, value: 2, to: reserve.units.first!.createDateTime), currentDateTime > createDateTime {
                     
                     print("Start Slot")
                     slotState.isSlotProcessing = true
